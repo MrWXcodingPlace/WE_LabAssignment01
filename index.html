@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resume Mr.WX</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link
+      rel="stylesheet"
+      href="https://www.w3schools.com/lib/w3-colors-flat.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script>
+      function myFunction() {
+        var x = document.getElementById("navDemo");
+        if (x.className.indexOf("w3-show") == -1) {
+          x.className += " w3-show";
+        } else {
+          x.className = x.className.replace(" w3-show", "");
+        }
+      }
+    </script>
+    <style>
+      /* Set a table format */
+      table,
+      th,
+      td {
+        text-align: left;
+        border-spacing: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="w3-top">
+      <div class="w3-bar w3-flat-pumpkin w3-card">
+        <a
+          class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right"
+          href="javascript:void(0)"
+          onclick="myFunction()"
+          title="Toggle Navigation Menu"
+          ><i class="fa fa-bars"> </i
+        ></a>
+        <a href="#home" class="w3-bar-item w3-button w3-padding-large">Mr.WX</a>
+        <a
+          href="#project"
+          class="w3-bar-item w3-button w3-padding-large w3-hide-small w3-right"
+          >Previous project</a
+        >
+        <a
+          href="#training"
+          class="w3-bar-item w3-button w3-padding-large w3-hide-small w3-right"
+          >Training attended</a
+        >
+        <a
+          href="#skills"
+          class="w3-bar-item w3-button w3-padding-large w3-hide-small w3-right"
+          >Profesional skills</a
+        >
+        <a
+          href="#edu"
+          class="w3-bar-item w3-button w3-padding-large w3-hide-small w3-right"
+          >Education</a
+        >
+        <a
+          href="#background"
+          class="w3-bar-item w3-button w3-padding-large w3-hide-small w3-right"
+          >Background</a
+        >
+        <a
+          href="#about"
+          class="w3-bar-item w3-button w3-padding-large w3-hide-small w3-right"
+          >About</a
+        >
+        <a
+          href="javascript:void(0)"
+          class="w3-padding-large w3-hover-red w3-hide-small w3-right"
+        ></a>
+      </div>
+    </nav>
+
+    <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+    <nav
+      id="navDemo"
+      class="w3-bar-block w3-flat-pumpkin w3-hide w3-hide-large w3-hide-medium w3-top"
+      style="margin-top: 46px"
+    >
+      <a
+        href="#about"
+        class="w3-bar-item w3-button w3-padding-large"
+        onclick="myFunction()"
+        >About</a
+      >
+      <a
+        href="#background"
+        class="w3-bar-item w3-button w3-padding-large"
+        onclick="myFunction()"
+        >Background</a
+      >
+      <a
+        href="#edu"
+        class="w3-bar-item w3-button w3-padding-large"
+        onclick="myFunction()"
+        >Education</a
+      >
+      <a
+        href="#skills"
+        class="w3-bar-item w3-button w3-padding-large"
+        onclick="myFunction()"
+        >Profesional skills</a
+      >
+      <a
+        href="#training"
+        class="w3-bar-item w3-button w3-padding-large"
+        onclick="myFunction()"
+        >Training attended</a
+      >
+      <a
+        href="#project"
+        class="w3-bar-item w3-button w3-padding-large"
+        onclick="myFunction()"
+        >Previous project</a
+      >
+    </nav>
+
+    <!-- Page content -->
+    <div class="w3-content" style="max-width: 2000px; margin-top: 46px">
+      <!-- Banner -->
+      <div class="w3-display-container">
+        <img src="images/banner.png" alt="banner" width="100%" />
+      </div>
+
+      <!-- About -->
+      <div
+        class="w3-container w3-content w3-center w3-padding-64"
+        style="max-width: 800px"
+        id="about"
+      >
+        <h2 class="w3-wide">&#9830; About &#9830;</h2>
+        <p class="w3-justify">
+          &emsp; Hello! My name is Goh Wen Xuan, a student of University Utara
+          Malaysia (UUM). I am interested in web development, graphic design and
+          illustration art.
+        </p>
+        <p class="w3-justify">
+          &emsp; This website was built for a lab assignment in the STIW3044 Web
+          Engineering and it built with w3CSS framework and import fonts from
+          Google Fonts.
+        </p>
+        <br />
+        <img src="images/image01.jpg" alt="launching website" width="100%" />
+      </div>
+
+      <!-- Background -->
+      <div
+        class="w3-container w3-content w3-center w3-padding-64"
+        style="max-width: 800px"
+        id="background"
+      >
+        <h2 class="w3-wide">&#9830; Background &#9830;</h2>
+        <table>
+          <tr>
+            <th>Age</th>
+            <td>22</td>
+          </tr>
+          <tr>
+            <th>Email</th>
+            <td>07092gwx@gmail.com</td>
+          </tr>
+          <tr>
+            <th>Phone</th>
+            <td>017-4290326</td>
+          </tr>
+          <tr>
+            <th>Address</th>
+            <td>
+              9, Lorong Seri Emas 8, Taman Seri Emas, 14300 Nibong Tebal, Pulau
+              Pinang, Malaysia
+            </td>
+          </tr>
+          <tr>
+            <th>Language</th>
+            <td>English, Chinese, Malay</td>
+          </tr>
+        </table>
+      </div>
+
+      <!-- Education -->
+      <div
+        class="w3-container w3-content w3-center w3-padding-64"
+        style="max-width: 800px"
+        id="edu"
+      >
+        <h2 class="w3-wide">&#9830; Education &#9830;</h2>
+        <div class="timeline">
+          <div class="container left">
+            <div class="content">
+              <h3>2020</h3>
+              <p class="w3-opacity">Bachelor's Degree</p>
+              <p>Study at the University Utara Malaysia(UUM)</p>
+            </div>
+          </div>
+          <div class="container right">
+            <div class="content">
+              <h3>2019</h3>
+              <p class="w3-opacity">High school</p>
+              <p>Graduate at SMK Tunku Abdul Rahman</p>
+            </div>
+          </div>
+          <div class="container left">
+            <div class="content">
+              <h3>2017</h3>
+              <p class="w3-opacity">Secondary school</p>
+              <p>Graduate at SMJK Krian.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Skills -->
+      <div
+        class="w3-container w3-content w3-center w3-padding-64"
+        style="max-width: 800px"
+        id="skills"
+      >
+        <h2 class="w3-wide">&#9830; Professional skills &#9830;</h2>
+        <h3>HTML</h3>
+        <progress value="70" max="100">70%</progress>
+        <h3>CSS</h3>
+        <progress value="40" max="100">40%</progress>
+        <h3>JavaScript</h3>
+        <progress value="20" max="100">20%</progress>
+        <h3>Java</h3>
+        <progress value="60" max="100">60%</progress>
+        <h3>Figma</h3>
+        <progress value="80" max="100">80%</progress>
+      </div>
+
+      <!-- Training -->
+      <div
+        class="w3-container w3-content w3-padding-64"
+        style="max-width: 800px"
+        id="training"
+      >
+        <h2 class="w3-wide w3-center">&#9830; Training attended &#9830;</h2>
+        <ol>
+          <li>Empowering Your Creative Skills Workshop 2021</li>
+          <li>Cybersecurity In Depth With Cybersafe Malaysia & MCMC</li>
+          <li>Photoshop Workshop</li>
+          <li>ASEAN Leadership Dialogue 2021</li>
+        </ol>
+      </div>
+
+      <!-- Previous Project -->
+      <div
+        class="w3-container w3-content w3-center w3-padding-64"
+        style="max-width: 800px"
+        id="project"
+      >
+        <h2 class="w3-wide">&#9830; Previous Project &#9830;</h2>
+
+        <!-- Card Project 01 -->
+        <div class="w3-card" style="width: 50%; margin: 0 auto">
+          <a
+            href="https://www.figma.com/proto/rJf3SHDkeQ2vp4eOhVMb0W/SCHOOL-CANTEEN-MANAGEMENT-SYSTEM?node-id=321%3A6242&scaling=scale-down&page-id=0%3A1"
+            target="_blank"
+            ><img src="images/Project SAD.png" alt="Project card" width="100%"
+          /></a>
+          <div class="w3-container w3-center">
+            <p>Prototype of Canteen Management System</p>
+          </div>
+        </div>
+        <br />
+        <!-- Card Project 02 -->
+        <div class="w3-card" style="width: 50%; margin: 0 auto">
+          <a href="https://addmath.webador.com/" target="_blank"
+            ><img src="images/Project HCI.png" alt="Project card" width="100%"
+          /></a>
+          <div class="w3-container w3-center">
+            <p>Website of Learning AddMath SPM</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="w3-bar w3-center w3-flat-pumpkin">
+      <p>© Resume Mr.WX. All rights reserved.</p>
+      <p><a href="mailto:07092gwx@gmail.com">07092gwx@gmail.com</a></p>
+    </footer>
+  </body>
+</html>
